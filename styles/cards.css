@@ -1,0 +1,41 @@
+.cards__description {
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0;
+    font-family: 'Inria Serif', serif;
+}
+.cards_flex{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 16px 0;
+    text-align: center;
+}
+
+.header__subtitle{
+    margin-bottom: 1rem;
+}
+
+.cards__item {
+    max-width: 240px;
+    margin-bottom: 1rem;
+}
+
+.cards__image {
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    transition: transform 0.3s ease;
+    object-fit: cover;
+}
+.cards__image:hover , .cards__image:focus{
+    transform: scale(1.2);
+}

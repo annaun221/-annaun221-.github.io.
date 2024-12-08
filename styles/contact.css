@@ -1,0 +1,55 @@
+.contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+
+#contact_inf{
+    text-align: center;
+    font-size: 28pt;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact form label {
+    font-family: 'Inria Serif', serif;
+    display: block;
+    margin: 0 5px;
+    text-align: left;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    font-family: 'Inria Serif', serif;
+}
+
+.contact button {
+    background: #9C72C2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.contact button:hover {
+    background-color: #CD9FF8;
+}

@@ -1,0 +1,38 @@
+.nav-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #653C7A;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.nav-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+    border-color: #ffffff;
+    outline: none;
+}

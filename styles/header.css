@@ -1,0 +1,81 @@
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header__image {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+
+.image-full {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 80px;
+
+}
+
+.header__text-block {
+    flex: 2;
+    margin: 0 32px;
+    text-align: center;
+    padding: 0 16px;
+}
+
+.header__title {
+    font-family: 'Inria Serif', serif;
+    font-size: 36px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+
+.header__subtitle {
+    font-family: 'Inria Serif', serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.header__photo2 {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.header__image {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+.profile-photo2{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    display: block;
+    border-radius: 50%;
+    padding-bottom: 1rem;
+}

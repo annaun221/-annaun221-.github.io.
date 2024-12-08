@@ -1,0 +1,80 @@
+.about {
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+.about h2 {
+    font-size: 24px;
+    color: #555;
+    border-bottom: 2px solid #f4f4f4;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.about p {
+    font-family: 'Inria Serif', serif;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+    text-indent: 1em;
+}
+
+.about ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+
+.about ul li {
+    font-size: 16px;
+    font-family: 'Inria Serif', serif;
+    margin-bottom: 15px;
+    color: #555;
+    
+}
+
+.about .intro {
+    margin-bottom: 30px;
+}
+
+.about .my-story {
+    margin-bottom: 30px;
+}
+
+.about .hobbies {
+    margin-bottom: 30px;
+}
+
+.about .contact_about {
+    margin-top: 30px;
+}
+
+.about .contact_about a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.about .contact_about a:hover {
+    text-decoration: underline;
+}
+
+.photo-container {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #ddd;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}

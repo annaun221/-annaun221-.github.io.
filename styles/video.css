@@ -1,0 +1,31 @@
+.video {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.video__title,
+.video__subtitle {
+    margin: 0 auto;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.video__iframe {
+    margin-right: 20px;
+    margin-top: 50px;
+    width: 515px;
+    height: 316px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.video.section_background_grey{
+margin: 0;
+}
